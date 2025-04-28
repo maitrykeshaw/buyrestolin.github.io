@@ -37,17 +37,6 @@
     <link rel="shortcut icon" href="/icons/favicon.ico">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#00bcd4">
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function () {
-                navigator.serviceWorker.register('/sw.js').then(function (registration) {
-                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
-                }, function (err) {
-                    console.log('ServiceWorker registration failed: ', err);
-                });
-            });
-        }
-    </script>
 </head>
 
 <body>
@@ -1026,6 +1015,17 @@
     <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
     <script src="assets/theme/js/script.js"></script>
     <input name="animation" type="hidden">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js').then(function (registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
 </body>
 
 </html>
