@@ -1,12 +1,12 @@
 {
-  "name":"PWA Tutorial",
-  "short_name":"PWA",
+  "name":"Restolin™ Official | All Natural - 70% Off Today!",
+  "short_name":"Restolin™",
   "start_url":"index.html",
   "display":"standalone",
   "background_color":"#5900b3",
   "theme_color":"#FF5733",
   "scope": ".",
-  "description":"This is a PWA tutorial.",
+  "description":"Restolin supplement, Restolin hair growth pills, Restolin pills, Restolin capsules, Restolin tablets",
   "icons":[
   {
   "src":"icons/favicon-192x192.png",                     
